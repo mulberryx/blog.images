@@ -5,14 +5,14 @@
 
 module.exports = {
   contents: [{
-    portal: "./dist/fonts",
+    portal: "./prod/fonts",
     type: "font",
   }, {
-    portal: "./dist/images",
+    portal: "./prod/images",
     type: "image",
   }],
   dependencies: [],
   portals: false,
   build: "optimize",
-  manifest: "./dist/manifest.json",
+  manifest: "./prod/manifest.json",
 }
