@@ -20,8 +20,5 @@
     ".eslintrc",
     ".babelrc",
     ".bowerrc"
-  ],
-  "dependencies": {
-    "qniu": "latest"
-  }
+  ]
 }
