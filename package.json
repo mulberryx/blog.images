@@ -20,5 +20,9 @@
     ".eslintrc",
     ".babelrc",
     ".bowerrc"
-  ]
+  ],
+  dependencies: {
+    "gulp": "",
+    "gulp-eslint": "^5.0.0"
+  },
 }
