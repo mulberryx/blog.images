@@ -4,25 +4,15 @@
   "description": "blog materials",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mulberryx/blog.materials.git"
+    "url": "https://github.com/raddeana/blog.materials.git"
   },
   "author": "mulberryx",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mulberryx/blog.materials/issues",
+    "url": "https://github.com/raddeana/blog.materials/issues",
     "email": "wowcxy2008@126.com"
   },
-  "files": [
-    "LICENSE",
-    "README.md",
-    ".istanbul.yml",
-    ".travis.yml",
-    ".eslintrc",
-    ".babelrc",
-    ".bowerrc"
-  ],
   dependencies: {
-    "gulp": "",
-    "gulp-eslint": "^5.0.0"
+    "ali-oss": "^6.0.1"
   },
 }
