@@ -1,18 +1,17 @@
 /**
  * 部署配置
- * @author muffin
+ * @author Philip
  */
 
 module.exports = {
-  contents: [{
-    portal: "./prod/fonts",
-    type: "font",
-  }, {
-    portal: "./prod/images",
-    type: "image",
-  }],
-  dependencies: [],
-  portals: false,
-  build: "optimize",
-  manifest: "./prod/manifest.json",
+  name: 'deploy',
+  project: 'deploy',
+  type: 'self',
+  ali_oss: {
+    accessKeyId: 'LTAI2PBQSdfLOUme',
+    accessKeySecret: 'uMuFXEuK06PGTEmHRiFCvoCNtgx8nb',
+    bucket: 'raddeana',
+    region: 'oss-cn-beijing'
+  },
+  publish: 'npm run publish'
 }
