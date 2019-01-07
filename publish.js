@@ -10,10 +10,10 @@ const config = {
   name: 'materials',
   description: 'blog materials libs',
   ali_oss: {
-    region: '',
-    accessKeyId: '',
-    accessKeySecret: '',
-    bucket: ''
+    region: 'oss-cn-hangzhou',
+    accessKeyId: 'LTAI2PBQSdfLOUme',
+    accessKeySecret: 'uMuFXEuK06PGTEmHRiFCvoCNtgx8nb',
+    bucket: 'raddeana-materials'
   },
 }
 
